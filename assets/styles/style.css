@@ -4,6 +4,10 @@ body {
     color: rgba(0, 0, 0, 0.4);
 }
 
+a {
+    text-decoration: none;
+}
+
 .title {
     font-size: 2.7rem;
     color: rgba(0, 0, 0, 0.6);
@@ -30,14 +34,6 @@ img {
     margin-right: 50px;
 }
 
-li {
-    display: inline;
-    color: rgb(241, 241, 241);
-    font-size: 1.2rem;
-    font-weight: 400;
-
-}
-
 .menu {
     margin-right: 30px;
     text-decoration: none;
@@ -54,13 +50,6 @@ li {
 .menu:hover {
     color: rgb(0, 0, 0);
     transition: 0.3s;
-
-}
-
-nav {
-    text-align: right;
-    margin-right: 30px;
-    margin-top: 30px;
 }
 
 .left {
@@ -118,6 +107,7 @@ nav {
     box-align: right;
     margin: 5px;
     transition: 0.3s;
+    margin-left: 60px;
 }
 
 .change .bar1 {
@@ -133,14 +123,61 @@ nav {
     -webkit-transform: rotate(-45deg) translate(4px, -6px);
     transform: rotate(-45deg) translate(4px, -6px);
 }
+
 .bar-container {
     position: fixed;
     top: 0;
     right: 0;
-    margin: 25px;
+    width: 150px;
+    margin: 20px;
+    margin-left: 0;
     padding: 5px;
-    width: 50px;
     height: 28px;
     cursor: pointer;
-
 }
+
+.link-container {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    margin-top: 55px;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 1.25rem;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+
+
+.link {
+    padding-top: 30px;
+    margin-right: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* .change .link-container {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    text-align: right;
+    margin-top: 100px;
+} */
+
+.show {
+    transition: 0.2s;
+    opacity: 1;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.link:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
