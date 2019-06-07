@@ -114,12 +114,25 @@ nav {
     width: 35px;
     height: 2px;
     border-radius: 1px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     box-align: right;
     margin: 5px;
-
+    transition: 0.3s;
 }
 
+.change .bar1 {
+    -webkit-transform: rotate(45deg) translate(4px, 6px);
+    transform: rotate(45deg) translate(4px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(-45deg) translate(4px, -6px);
+    transform: rotate(-45deg) translate(4px, -6px);
+}
 .bar-container {
     position: fixed;
     top: 0;
