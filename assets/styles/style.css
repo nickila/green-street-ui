@@ -40,8 +40,6 @@ img {
     color: rgba(0, 0, 0, 0.5);
     padding: 7px;
     border: 1px transparent solid;
-    font-size: 1.4rem;
-    font-family: "Playfair Display", 'Times New Roman', Times, serif;
     cursor: pointer;
     font-weight: 200;
 
@@ -50,6 +48,13 @@ img {
 .menu:hover {
     color: rgb(0, 0, 0);
     transition: 0.3s;
+
+}
+
+nav {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .left {
@@ -69,6 +74,9 @@ img {
     margin-left: 0;
     padding: 0;
     cursor: pointer;
+    font-family: 'Taviraj', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .search-btn:hover {
@@ -84,6 +92,10 @@ img {
     margin-right: 0;
     background-color: rgb(250, 250, 250);
     border: 1px rgba(0, 0, 0, 0.15) solid;
+    font-family: 'Taviraj', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+
 }
 
 .info {
@@ -93,10 +105,11 @@ img {
     margin-left: 50px;
     margin-right: 50px;
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.8);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.25;
-    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Taviraj', 'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -128,56 +141,55 @@ img {
     position: fixed;
     top: 0;
     right: 0;
-    width: 150px;
-    margin: 20px;
-    margin-left: 0;
+    width: 120px;
+    margin: 20px 20px 0 0;
     padding: 5px;
     height: 28px;
     cursor: pointer;
 }
 
 .link-container {
+    visibility: hidden;
     position: fixed;
-    top: 50px;
-    right: 20px;
-    margin-top: 55px;
+    top: 10px;
+    right: 5px;
     opacity: 0;
     transition: 0.2s;
     font-size: 1.25rem;
     text-align: right;
-    padding-right: 20px;
-    
+    padding: 0 20px 15px 20px;
+    background-color: rgba(250, 250, 250, 0.95);
+    border-radius: 2px;
+    z-index: 100;
 }
 
-
-
-.link {
-    padding-top: 30px;
-    margin-right: 25px;
-    text-align: right;
-    color: rgba(0, 0, 0, 0.5);
+.list {
+    padding-top: 10px;
+    font-size: 1.5rem;
 }
-
-/* .change .link-container {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 20px;
-    text-align: right;
-    margin-top: 100px;
-} */
 
 .show {
     transition: 0.2s;
+    visibility: visible;
     opacity: 1;
     position: fixed;
-    top: 50px;
-    right: 20px;
+    top: 10px;
     text-align: right;
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+.display {
+    display: block;
+}
+
+.link {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Taviraj', Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
 }
 
 .link:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.7);
 }
 
