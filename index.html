@@ -20,13 +20,42 @@
     <div class="link-container">
         <nav>
             <ul>
-                <li class="list"><a class="link" href="about">about</a></li>
-                <li class="list"><a class="link" href="contact">contact</a></li>
-                <li class="list"><a class="link" href="donate">donate</a></li>
-                <li class="list"><a class="link" href="login">login</a></li>
-                <li class="list"><a class="link" href="join">join</a></li>
+                <li class="list"><a class="link" href="about">About</a></li>
+                <li class="list"><a class="link" href="newmarket">New Market</a></li>
+
+                <li class="list"><a class="link" href="contact">Contact</a></li>
+                <li class="list"><a class="link" href="market">Market</a></li>
+                <li class="list"><a class="link" href="profile">Profile</a></li>
+                <li class="list link login">Login</li>
+                <li class="list link join">Join</li>
             </ul>
         </nav>
+    </div>
+    <div class="login-modal modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="login-form">
+                <label class="login-label">Email</label>
+                <input class="login-field" name="email" type="email">
+                <label class="login-label">Password</label>
+                <input class="login-field" name="password" type="password">
+                <button class="btn login-btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="join-modal modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="login-form">
+                <label class="login-label">Email</label>
+                <input class="login-field" name="email" type="email">
+                <label class="login-label">Password</label>
+                <input class="login-field" name="password" type="password">
+                <label class="login-label">Confirm Password</label>
+                <input class="login-field" name="password-conf" type="password">
+                <button class="btn login-btn">SUBMIT</button>
+            </form>
+        </div>
     </div>
     <div class="center">
         <img src="assets/images/sheep.png" />
@@ -40,7 +69,7 @@
         <div class="searchbar">
             <form class="search-form">
                 <input class="search-field" type="text" placeholder="Minneapolis, MN" name="search">
-                <button class="search-btn" type="submit">search</button>
+                <button class="btn" type="submit">SEARCH</button>
             </form>
         </div>
 
