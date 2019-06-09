@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Green Street</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Taviraj:300, 400|Roboto:100, 200, 400|Lato:100, 200, 400|Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div class="bar-container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <div class="link-container">
+        <nav>
+            <ul>
+                <li class="list"><a class="link" href="about">About</a></li>
+                <li class="list"><a class="link" href="newmarket">New Market</a></li>
+
+                <li class="list"><a class="link" href="contact">Contact</a></li>
+                <li class="list"><a class="link" href="market">Market</a></li>
+                <li class="list"><a class="link" href="profile">Profile</a></li>
+                <li class="list link login">Login</li>
+                <li class="list link join">Join</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="login-modal modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="login-form">
+                <label class="login-label">Email</label>
+                <input class="login-field" name="email" type="email">
+                <label class="login-label">Password</label>
+                <input class="login-field" name="password" type="password">
+                <button class="btn login-btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="join-modal modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="login-form">
+                <label class="login-label">Email</label>
+                <input class="login-field" name="email" type="email">
+                <label class="login-label">Password</label>
+                <input class="login-field" name="password" type="password">
+                <label class="login-label">Confirm Password</label>
+                <input class="login-field" name="password-conf" type="password">
+                <button class="btn login-btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>
