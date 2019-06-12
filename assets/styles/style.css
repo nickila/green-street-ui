@@ -9,17 +9,17 @@ body {
     /* border: 1px rgba(0, 0, 0, 0.3) solid; */
 }
 .col-12 {width: 100%;}
-.col-11 {width: 91.666666%;}
-.col-10 {width: 83.333333%;}
+.col-11 {width: 91.6%;}
+.col-10 {width: 83.3%;}
 .col-9 {width: 75%;}
-.col-8 {width: 66.6666666%;}
-.col-7 {width: 58.333333%;}
+.col-8 {width: 66.6%;}
+.col-7 {width: 58.3%;}
 .col-6 {width: 50%;}
-.col-5 {width: 41.6666666%;}
-.col-4 {width: 33.3333333%;}
+.col-5 {width: 41.6%;}
+.col-4 {width: 33.3%;}
 .col-3 {width: 25%;}
-.col-2 {width: 16.666666%;}
-.col-1 {width: 8.333333%;}
+.col-2 {width: 16.6%;}
+.col-1 {width: 8.3%;}
 
 .row::after {
     content: "";
@@ -77,8 +77,8 @@ img {
 
 nav {
     text-align: right;
-    margin-right: 30px;
-    margin-top: 10px;
+    margin: 8px 30px 15px 0;
+
 }
 
 .left {
@@ -185,6 +185,7 @@ nav {
     box-shadow: -5px 10px 18px #e4e4e4;
     border-radius: 2px;
     z-index: 100;
+    margin-right: 10px;
 }
 
 .list {
@@ -310,7 +311,6 @@ nav {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 120px;
-    padding: 20px;
 }
 
 .profile-img {
@@ -333,15 +333,15 @@ nav {
 }
 
 .profile-neighborhood {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     color: rgba(0, 0, 0, 0.6);
-    line-height: 1.2;
+    padding: 5px 0 5px 0;
 }
 
-.profile-city-state {
+.profile-market {
+    padding: 5px 0 5px 0;
     font-size: 2.3rem;
     color: rgba(0, 0, 0, 0.6);
-    line-height: 1.2;
 }
 
 .center-div {
@@ -351,4 +351,34 @@ nav {
 .bio {
     padding-top: 10px;
     text-align: justify;
+}
+
+.red {
+    color: rgba(255, 0, 0, 0.5); 
+}
+
+.offering-div {
+    padding-left: 0;
+}
+
+.offering-header {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+}
+
+.offerings {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.status-icon {
+    padding: 2px 8px 2px 8px;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    float: right;
+    color: white;
+    background-color: gold;
+    border-radius: 2px;
+    font-size: 3rem;
 }
